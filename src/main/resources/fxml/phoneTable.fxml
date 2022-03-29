@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.controller.phoneTableController">
+   <children>
+      <TableView fx:id="table" prefHeight="330.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="75.0" text="id" />
+          <TableColumn fx:id="number" prefWidth="344.0" text="number" />
+        </columns>
+      </TableView>
+      <Button fx:id="button" layoutY="330.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="159.0" text="ember table" />
+   </children>
+</AnchorPane>
